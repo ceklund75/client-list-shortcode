@@ -1,0 +1,11 @@
+.client-tabs-container { display: flex; flex-direction: column; }
+.client-tabs-nav { display: flex; gap: 4px; margin-bottom: 1em; flex-wrap: wrap; }
+.client-tab-btn { padding:8px 12px; border:0; border-radius:0; background:#f8f8f8; cursor:pointer; min-width:28px; }
+.client-tab-btn:focus { background: #EA1C1C; color: #fff; }      
+.client-tab-btn:hover { background: #EA1C1C; color: #fff; }
+.client-tab-btn.active { background: #EA1C1C; color: #fff; }
+.client-tabs-panel { display:none; padding:8px; border:1px solid #c6c6c6; border-radius:0 0 4px 4px;}
+.client-tabs-panel.active { display:block; }
+.client-table-row { display:flex; flex-direction:row; gap:1em; margin-bottom:0.5em;}
+.client-table-cell { flex:1 1 0; padding:4px 8px; box-sizing:border-box; color: #f8f8f8;}
+@media (max-width:800px) { .client-table-row{ flex-direction:column; } }
